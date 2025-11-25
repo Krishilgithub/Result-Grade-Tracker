@@ -9,7 +9,7 @@ import '../utils/pdf_exporter.dart';
 import 'add_edit_grade_screen.dart';
 
 class CourseGradesScreen extends StatefulWidget {
-  const CourseGradesScreen({Key? key}) : super(key: key);
+  const CourseGradesScreen({super.key});
 
   @override
   State<CourseGradesScreen> createState() => _CourseGradesScreenState();
@@ -96,7 +96,7 @@ class _CourseGradesScreenState extends State<CourseGradesScreen> {
                             },
                           ),
                         );
-                      }).toList(),
+                      }),
                     ],
                   ),
                 ),
@@ -272,7 +272,7 @@ class _CourseGradesScreenState extends State<CourseGradesScreen> {
                       );
                     },
                   );
-                }).toList(),
+                }),
 
                 // Actions
                 Padding(

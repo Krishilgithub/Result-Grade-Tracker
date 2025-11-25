@@ -136,12 +136,12 @@ class PDFExporter {
                             ),
                           ],
                         );
-                      }).toList(),
+                      }),
                     ],
                   ),
                 ],
               );
-            }).toList(),
+            }),
 
             // GPA Summary
             pw.SizedBox(height: 24),
@@ -177,7 +177,7 @@ class PDFExporter {
                         ],
                       ),
                     );
-                  }).toList(),
+                  }),
                   pw.SizedBox(height: 8),
                   pw.Divider(thickness: 2),
                   pw.SizedBox(height: 8),
@@ -379,7 +379,7 @@ class PDFExporter {
                       _buildTableCell(grade.date.toString().split(' ')[0]),
                     ],
                   );
-                }).toList(),
+                }),
               ],
             ),
 
@@ -407,7 +407,7 @@ class PDFExporter {
                           ),
                         );
                       })
-                      .toList(),
+                      ,
                 ],
               ),
           ];

@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/grade_provider.dart';
 
 class GPAForecastScreen extends StatefulWidget {
-  const GPAForecastScreen({Key? key}) : super(key: key);
+  const GPAForecastScreen({super.key});
 
   @override
   State<GPAForecastScreen> createState() => _GPAForecastScreenState();
@@ -11,7 +11,7 @@ class GPAForecastScreen extends StatefulWidget {
 
 class _GPAForecastScreenState extends State<GPAForecastScreen> {
   String? _selectedSemester;
-  Map<String, TextEditingController> _scoreControllers = {};
+  final Map<String, TextEditingController> _scoreControllers = {};
   double? _forecastedGPA;
 
   @override

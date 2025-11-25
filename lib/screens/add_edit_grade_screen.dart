@@ -8,7 +8,7 @@ import '../providers/grade_provider.dart';
 class AddEditGradeScreen extends StatefulWidget {
   final Grade? grade;
 
-  const AddEditGradeScreen({Key? key, this.grade}) : super(key: key);
+  const AddEditGradeScreen({super.key, this.grade});
 
   @override
   State<AddEditGradeScreen> createState() => _AddEditGradeScreenState();

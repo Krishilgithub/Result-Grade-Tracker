@@ -5,7 +5,7 @@ import '../providers/grade_provider.dart';
 import '../models/deadline.dart';
 
 class DeadlinesScreen extends StatelessWidget {
-  const DeadlinesScreen({Key? key}) : super(key: key);
+  const DeadlinesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
